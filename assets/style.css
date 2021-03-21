@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Oswald:wght@400;700&display=swap");
+
+body {
+  font-family: "Open Sans" sans-serif, "Kalam", cursive;
+  margin: 0;
+  padding: 0;
+}
+
+/*================= HEADER ======================*/
+
+header {
+  width: 880px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+header img {
+  width: 150px;
+  height: 70px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/*================= AREA 1 ====================*/
+
+.area1 {
+  display: grid;
+  grid-template-columns: repeat(1fr, 1fr);
+  color: white;
+  background: rgb(224, 220, 220);
+  width: 1140px;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.area1--text {
+  margin-bottom: 50px;
+  line-height: 20px;
+}
+
+.area1--content {
+  padding: 5px;
+}
+
+.area1--content h1 {
+  font-size: 40px;
+  text-align: center;
+  font-family: "Kalam";
+  color: rgb(39, 140, 140);
+  text-decoration: underline;
+}
+
+.area1--content img {
+  width: 440px;
+  height: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.area1--text {
+  margin-bottom: 40px;
+  line-height: 25px;
+  font-size: 20px;
+  text-align: center;
+  color: grey;
+}
+
+.area1--content-right {
+  grid-column: 2 / 3;
+  width: 350px;
+  background: rgb(39, 140, 140);
+  border-radius: 10px;
+  text-align: center;
+}
+
+/*========== ICONES SOCIAIS ============*/
+.sociais {
+  width: 400px;
+  margin: auto;
+}
+
+.input--sociais {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.input--sociais div {
+  background: white;
+  color: black;
+  border: 1px solid black;
+
+  width: 120px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.icones--sociais {
+  display: flex;
+}
+
+.icone--facebook img,
+.icone--twitter img,
+.icone--linkedin img {
+  width: 35px;
+  height: 35px;
+  margin: 4px;
+}
+
+.icone--facebook,
+.icone--twitter,
+.icone--linkedin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: -30px;
+
+  height: 30px;
+  width: 110px;
+  padding: 9px;
+
+  border-radius: 4px;
+
+  margin-left: 3px;
+  margin-right: 3px;
+
+  font-weight: normal;
+  font-size: 14px;
+
+  cursor: pointer;
+}
+
+.icone--facebook:hover,
+.icone--twitter:hover,
+.icone--linkedin:hover {
+  margin-top: 0px;
+}
+
+.icone--facebook {
+  background-color: #3a5a99;
+}
+
+.icone--twitter {
+  background-color: #50abf1;
+}
+
+.icone--linkedin {
+  background-color: #4875b4;
+}
+
+/*================ HOVER =======================*/
+
+button:hover {
+  background-color: rgb(70, 175, 22);
+  transition: all 0.2s ease-in;
+}
+
+label:hover {
+  cursor: pointer;
+  color: rgb(61, 58, 58);
+}
+
+/*=============== FORM ========================*/
+
+form select {
+  margin-top: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+form input {
+  margin-bottom: 7px;
+  margin-top: 7px;
+}
+
+button {
+  background: orange;
+  color: white;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 3px;
+  border: none;
+}
+
+.rodape {
+  color: rgb(61, 58, 58);
+  font-size: 12px;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+/*================= AREA 2 =====================*/
+
+.area2 {
+  background-color: #278c8c;
+  width: 1140px;
+  height: 400px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.area2 h3 {
+  text-decoration: underline;
+}
+
+.area2 img {
+  width: 180px;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.area2 div {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.area2 div:hover {
+  background-color: rgb(0, 0, 0, 0.2);
+  transition: all 0.5s;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+/*============= FOOTER ==========================*/
+
+footer {
+  font-size: 13px;
+  padding: 30px 10px;
+  width: 1140px;
+  margin: auto;
+  text-align: center;
+}
+
+footer ul li {
+  list-style: none;
+}
